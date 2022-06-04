@@ -1,0 +1,182 @@
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+body{
+background: #ecf0f1;
+padding: 105px 0 0;
+
+}
+
+header{
+background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+width: 100%;
+height: 100px;
+position: absolute;
+top: 0;
+left: 0;
+
+}
+
+header #logo img{
+  margin: 10px;
+  float: left;
+  width: 100px;
+}
+
+#wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a{
+color: #524c56;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover, a-link_active{
+  color: #fff;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+#menu{
+  display: none;
+  font-size: 60px;
+}
+
+ul{
+  list-style: none;
+}
+
+nav ul li a{
+  font-size: 120%;
+  display: inline-block;
+  width: max-content;
+  float: left;
+  padding: 40px 20px 0 0;
+    color: #black;
+}
+
+.us{
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.info{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+p{
+  color: #524c56;
+  font-size: 150%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+
+.services{
+  margin: auto;
+  padding: 100px 10px 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.services h2{
+  font-size: 170%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #524c56;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+footer{
+  margin: 0;
+  background: #0a141d;
+  width: 100%;
+}
+
+h2 {
+  color: #fff;
+}
+.pie_pagina{
+  width: 100%;
+  background-color: #0a141d;
+}
+.pie_pagina .grupo_1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie_pagina .grupo_1 .box h2{
+
+  color: #fff;
+  margin-bottom: 25px;
+}
+.pie_pagina .grupo_1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.pie_pagina .grupo_1 .box p{
+  padding: 0;
+  margin-left: 0;
+  color: #efefef;
+  margin-bottom: 25px;
+}
+.pie_pagina .grupo_1 .box a{
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+background-color: #fff;
+text-align: center;
+
+}
+.pie_pagina .grupo_1 .box a:hover{
+  color: aqua;
+}
+
+.pie_pagina .grupo_1 .red_social a{
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+margin-right: 10px;
+background-color: #fff;
+text-align: center;
+}
+.pie_pagina .grupo_1 .red_social a:hover{
+  color: aqua;
+}
+
+.pie_pagina .grupo_2 {
+
+color: #fff;
+text-align: center;
+padding-bottom: 20px;
+}
+.pie_pagina small{
+  font-size: 15px;
+}
